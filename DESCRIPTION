@@ -1,0 +1,14 @@
+Package: montyhall
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Moira", "Files", , "mkfiles@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-1731-6913"))
+Description: This package is designed to replicate the Montyhall problem. The game consists of three doors. Behind two doors there are goats and the remain door has a car behind it. The player choses a door at random not knowing what is behind the door they selected. After the initial selection is made one of the remaining doors is opened to reveal the location of a goat. The player is then given the choice to either stay with their initial pick on to switch to the other unopened door. In order to win the final selection must have a car behind it otherwise the player loses. This packages allows the game to be played in a loop to determine which strategy has the higher possibility of winning switching or staying.
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
